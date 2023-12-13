@@ -18,6 +18,7 @@
           hiddenEmails += element.innerHTML;
         }
       });
+//TODO use _.padEnd when all the emails are concatenated
       if (recipientContent.offsetWidth < contentEmailsWidth){
         emails[emails.length - hiddenNumberEmails-1].innerHTML += "&#8230;";
       }
